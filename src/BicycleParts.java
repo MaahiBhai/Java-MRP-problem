@@ -1,5 +1,6 @@
+import java.sql.*;
 public class BicycleParts {
-    int cycles;
+    public static int cycles;
     public BicycleParts(int n){
         cycles=n;
     }
@@ -39,10 +40,12 @@ public class BicycleParts {
     public static int getBrakeshoe(){
         return cycles*4;
     }
-    public static void setSeat(int val){
-        ;
+    /*public static void setSeat(int val){
+        String sql = "UPDATE Users SET stock=? WHERE item=seat";
+        PreparedStatement statement = con.prepareStatement(sql);
+        statement.setInt(1,val);
     }
-    public static void setFrame(int val){
+    /*public static void setFrame(int val){
         ;
     }
     public static void setWheels(int val){
@@ -71,5 +74,5 @@ public class BicycleParts {
     }
     public static void setBrakeshoe(int val){
         ;
-    }
+    }*/
 }
