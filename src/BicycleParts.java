@@ -39,40 +39,37 @@ public class BicycleParts {
     public static int getBrakeshoe(){
         return cycles*4;
     }
-    public static int setSeat(int val){
+    public static void setSeat(int val){
         ;
     }
-    public static int setFrame(int val){
+    public static void setFrame(int val){
         ;
     }
-    public static int setWheels(int val){
+    public static void setWheels(int val){
         ;
     }
-    public static int setTires(int val){
+    public static void setTires(int val){
         ;
     }
-    public static int setHandlebar(int val){
+    public static void setHandlebar(int val){
         ;
     }
-    public static int setChain(int val){
+    public static void setChain(int val){
         ;
     }
-    public static int setCrankset(int val){
+    public static void setCrankset(int val){
         ;
     }
-    public static int setPedals(int val){
+    public static void setPedals(int val){
         ;
     }
-    public static int setBrakepaddle(int val){
+    public static void setBrakepaddle(int val){
         ;
     }
-    public static int setBrakecable(int val){
+    public static void setBrakecable(int val){
         ;
     }
-    public static int setBrakelever(int val){
-        ;
-    }
-    public static int setBrakeshoe(int val){
+    public static void setBrakeshoe(int val){
         ;
     }
 }
