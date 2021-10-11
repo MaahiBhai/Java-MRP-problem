@@ -3,12 +3,16 @@ public class BicycleParts {
     public static int cycles;
     public BicycleParts(int n){
         cycles=n;
+
     }
     public static int getSeat(){
         return cycles;
     }
     public static int getFrame(){
         return cycles;
+    }
+    public static int getBrakeset(){
+        return cycles*2;
     }
     public static int getWheels(){
         return cycles*2;
