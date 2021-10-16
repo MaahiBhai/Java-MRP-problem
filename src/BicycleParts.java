@@ -44,39 +44,4 @@ public class BicycleParts {
     public static int getBrakeshoe(){
         return cycles*4;
     }
-    /*public static void setSeat(int val){
-        String sql = "UPDATE Users SET stock=? WHERE item=seat";
-        PreparedStatement statement = con.prepareStatement(sql);
-        statement.setInt(1,val);
-    }
-    /*public static void setFrame(int val){
-        ;
-    }
-    public static void setWheels(int val){
-        ;
-    }
-    public static void setTires(int val){
-        ;
-    }
-    public static void setHandlebar(int val){
-        ;
-    }
-    public static void setChain(int val){
-        ;
-    }
-    public static void setCrankset(int val){
-        ;
-    }
-    public static void setPedals(int val){
-        ;
-    }
-    public static void setBrakepaddle(int val){
-        ;
-    }
-    public static void setBrakecable(int val){
-        ;
-    }
-    public static void setBrakeshoe(int val){
-        ;
-    }*/
 }
