@@ -1,13 +1,18 @@
+import java.sql.*;
 public class BicycleParts {
-    int cycles;
+    public static int cycles;
     public BicycleParts(int n){
         cycles=n;
+
     }
     public static int getSeat(){
         return cycles;
     }
     public static int getFrame(){
         return cycles;
+    }
+    public static int getBrakeset(){
+        return cycles*2;
     }
     public static int getWheels(){
         return cycles*2;
@@ -38,38 +43,5 @@ public class BicycleParts {
     }
     public static int getBrakeshoe(){
         return cycles*4;
-    }
-    public static void setSeat(int val){
-        ;
-    }
-    public static void setFrame(int val){
-        ;
-    }
-    public static void setWheels(int val){
-        ;
-    }
-    public static void setTires(int val){
-        ;
-    }
-    public static void setHandlebar(int val){
-        ;
-    }
-    public static void setChain(int val){
-        ;
-    }
-    public static void setCrankset(int val){
-        ;
-    }
-    public static void setPedals(int val){
-        ;
-    }
-    public static void setBrakepaddle(int val){
-        ;
-    }
-    public static void setBrakecable(int val){
-        ;
-    }
-    public static void setBrakeshoe(int val){
-        ;
     }
 }
